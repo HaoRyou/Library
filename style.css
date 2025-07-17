@@ -40,6 +40,11 @@
   position: relative;
 }
 
+.button_div{
+    display: flex;
+    justify-content: space-between;
+}
+
 .book button {
   align-self: flex-end; /* ✅ Push button to right */
   margin-top: auto;     /* ✅ Push it to the bottom of flex container */
